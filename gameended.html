@@ -1,0 +1,53 @@
+<!--
+  ~     Meteor Mania - HTML5 Game for School
+  ~     Copyright (C) 2022  My-Name-Is-Jeff
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU Affero General Public License as
+  ~     published by the Free Software Foundation, either version 3 of the
+  ~     License, or any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU Affero General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU Affero General Public License
+  ~     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Meteor Mania</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+
+    <body class="bg-dark text-center text-light">
+        <h1 id="result"></h1>
+        <h4 id="taunt"></h4>
+        <div class="vstack gap-3">
+            <div><h4>Last Game:</h4></div>
+            <div>Your Score: <span id="score"></span></div>
+            <div>Lives Remaining: <span id="lives"></span></div>
+            <div>Time Survived: <span id="time"></span>s</div>
+        </div>
+        <br>
+        <div class="vstack gap-3">
+            <h4>Best Game:</h4>
+            <div>Your Score: <span id="highest-score"></span></div>
+            <div>Lives Remaining: <span id="highest-lives"></span></div>
+            <div>Time Survived: <span id="highest-time"></span>s</div>
+        </div>
+        <div class="row">
+            <a href="./" class="btn btn-success" role="button">Play Again?</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <script src="assets/gameover.js"></script>
+    </body>
+</html>
